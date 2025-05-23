@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aisance en Mathématique - Cours de Répétition à Domicile</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap');
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 1.5em 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            font-size: 2.8em;
+            letter-spacing: 1px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2em auto;
+            padding: 0 1.5em;
+        }
+
+        section {
+            background-color: white;
+            padding: 2em;
+            margin-bottom: 2em;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            color: #007bff;
+            font-size: 2em;
+            margin-top: 0;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 0.5em;
+            margin-bottom: 1em;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 0.8em;
+            padding-left: 1.5em;
+            position: relative;
+        }
+
+        ul li::before {
+            content: '✓';
+            color: #28a745;
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+
+        .price-range {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #28a745;
+        }
+
+        form {
+            display: grid;
+            gap: 1.5em;
+        }
+
+        form label {
+            font-weight: bold;
+            margin-bottom: 0.5em;
+            display: block;
+            color: #555;
+        }
+
+        form input[type="text"],
+        form input[type="email"],
+        form input[type="tel"],
+        form select,
+        form textarea {
+            width: 100%;
+            padding: 0.8em;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1em;
+            box-sizing: border-box; /* Ensures padding doesn't affect total width */
+        }
+
+        form textarea {
+            resize: vertical;
+            min-height: 80px;
+        }
+
+        form input[type="submit"] {
+            background-color: #28a745;
+            color: white;
+            padding: 1em 1.5em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.1em;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        form input[type="submit"]:hover {
+            background-color: #218838;
+        }
+
+        .contact-choice {
+            margin-top: 1em;
+        }
+
+        .contact-choice label {
+            display: inline-block;
+            margin-right: 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5em 0;
+            background-color: #333;
+            color: white;
+            margin-top: 2em;
+            font-size: 0.9em;
+        }
+
+        footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Aisance en Mathématique</h1>
+        <p>Votre partenaire pour l'excellence académique à domicile</p>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>À Propos de Nous</h2>
+            <p>Bienvenue chez **Aisance en Mathématique** ! Nous sommes dédiés à offrir des cours de répétition de haute qualité à domicile, conçus pour aider les élèves à surmonter leurs défis académiques et à exceller dans les matières scientifiques et linguistiques. Notre approche personnalisée garantit un suivi attentif pour chaque apprenant.</p>
+        </section>
+
+        <section id="subjects">
+            <h2>Nos Matières</h2>
+            <p>Nous proposons des cours de répétition dans les matières suivantes :</p>
+            <ul>
+                <li>**Mathématiques**</li>
+                <li>**Physique**</li>
+                <li>**Allemand**</li>
+            </ul>
+            <p>Nos cours sont adaptés aux **classes d'examen** (BEPC, Probatoire, Baccalauréat) ainsi qu'à toutes les autres classes selon les besoins spécifiques de l'élève.</p>
+        </section>
+
+        <section id="pricing">
+            <h2>Tarifs</h2>
+            <p>Nos tarifs sont flexibles et dépendent de la classe de l'élève et de la distance à parcourir pour les cours à domicile.</p>
+            <p class="price-range">**Prix :** de **20 000 FCFA** à **50 000 FCFA**.</p>
+            <p>Un devis précis vous sera communiqué après évaluation de vos besoins.</p>
+        </section>
+
+        <section id="expertise">
+            <h2>Notre Expertise</h2>
+            <p>Nous nous engageons à vous offrir des enseignants compétents et expérimentés. Lors de l'entretien, nous serons ravis de vous présenter les preuves du niveau et des qualifications de l'enseignant attribué, garantissant ainsi la qualité de notre accompagnement.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Demande de Cours</h2>
+            <p>Intéressé(e) par nos services ? Remplissez le formulaire ci-dessous et nous vous contacterons dans les plus brefs délais pour discuter de vos besoins.</p>
+            <form action="mailto:donnangaziel2@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Nom Complet :</label>
+                <input type="text" id="name" name="Nom Complet" required>
+
+                <label for="student-class">Classe de l'élève :</label>
+                <input type="text" id="student-class" name="Classe de l'élève" required>
+
+                <label for="subject-choice">Matière(s) souhaitée(s) :</label>
+                <select id="subject-choice" name="Matière(s) choisie(s)" multiple required>
+                    <option value="Mathématiques">Mathématiques</option>
+                    <option value="Physique">Physique</option>
+                    <option value="Allemand">Allemand</option>
+                    <option value="Autres">Autres (précisez ci-dessous)</option>
+                </select>
+
+                <label for="message">Message / Détails supplémentaires (besoins spécifiques, questions) :</label>
+                <textarea id="message" name="Message"></textarea>
+
+                <p>Comment souhaitez-vous être contacté(e) ?</p>
+                <div class="contact-choice">
+                    <input type="radio" id="contact-email" name="Type de contact" value="Email" checked>
+                    <label for="contact-email">Email</label>
+
+                    <input type="radio" id="contact-phone" name="Type de contact" value="Téléphone">
+                    <label for="contact-phone">Téléphone</label>
+                </div>
+
+                <div id="contact-details">
+                    <label for="contact-info-input" id="contact-label">Votre adresse email :</label>
+                    <input type="email" id="contact-info-input" name="Coordonnée de contact" required>
+                </div>
+
+                <div id="whatsapp-option" style="display:none;">
+                    <input type="checkbox" id="whatsapp-consent" name="Contact par WhatsApp" value="Oui">
+                    <label for="whatsapp-consent">Je souhaite être contacté(e) par WhatsApp.</label>
+                </div>
+
+                <input type="submit" value="Envoyer ma Demande">
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Aisance en Mathématique. Tous droits réservés.</p>
+        <p>Contact : <a href="mailto:donnangaziel2@gmail.com">donnangaziel2@gmail.com</a></p>
+    </footer>
+
+    <script>
+        const contactEmailRadio = document.getElementById('contact-email');
+        const contactPhoneRadio = document.getElementById('contact-phone');
+        const contactInfoInput = document.getElementById('contact-info-input');
+        const contactLabel = document.getElementById('contact-label');
+        const whatsappOption = document.getElementById('whatsapp-option');
+
+        contactEmailRadio.addEventListener('change', () => {
+            if (contactEmailRadio.checked) {
+                contactLabel.textContent = 'Votre adresse email :';
+                contactInfoInput.type = 'email';
+                contactInfoInput.placeholder = '';
+                whatsappOption.style.display = 'none';
+            }
+        });
+
+        contactPhoneRadio.addEventListener('change', () => {
+            if (contactPhoneRadio.checked) {
+                contactLabel.textContent = 'Votre numéro de téléphone :';
+                contactInfoInput.type = 'tel';
+                contactInfoInput.placeholder = 'Ex: +237 6XX XX XX XX';
+                whatsappOption.style.display = 'block';
+            }
+        });
+    </script>
+</body>
+</html>
